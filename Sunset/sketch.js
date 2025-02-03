@@ -1,8 +1,8 @@
 //This program draws a sunset 
 
 let midWidth;
-let backColor = (102,112,121);
-let foreColor = (178,194,175);
+let backColor = [102,112,121];
+let foreColor = [178,194,175];
 
 //Makes the box bigger so you can see
 let screenScale = 5;
