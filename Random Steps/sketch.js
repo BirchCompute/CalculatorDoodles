@@ -29,7 +29,9 @@ function setup() {
 
 function draw() {
   //random step up, down, or stay the same
-  y += random(2)-1
+  y += random(-1,1);
+  if(y<=0){ y=0; }
+  if(y>=64){ y = 64; }
   
   //draws the point accounting for screen scale
   point(x * screenScale, y * screenScale);
